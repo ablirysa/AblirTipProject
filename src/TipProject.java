@@ -20,8 +20,8 @@ public class TipProject {
         double total = bill + tipPayed;
         double perPerson = total/people;
         double tipPerPerson = tipPayed / people;
-        System.out.print("In this scenario, the total would be $" + total);
-        System.out.print(" and each person is going to pay $" + perPerson);
-        System.out.println(" with the tip per person being $" + tipPerPerson);
+        System.out.printf("In this scenario, the total would be $" + "%.2f", + total);
+        System.out.printf(" and each person is going to pay $" + "%.2f", + perPerson);
+        System.out.printf(" with the tip per person being $" + "%.2f", + tipPerPerson);
     }
 }
